@@ -1,0 +1,109 @@
+.bookingDetailsPage {
+    background-color: white;
+  }
+  
+  .bookingDetailsContainer > h1 {
+    font: 300 3vmax "Roboto";
+    margin: 4vmax 0;
+    color: tomato;
+  }
+  
+  .bookingDetailsContainer {
+    padding: 5vmax;
+    padding-bottom: 0%;
+  }
+  
+  .bookingDetailsContainer > p {
+    font: 400 1.8vmax "Roboto";
+  }
+  
+  .bookingDetailsContainerBox,
+  .bookingDetailsCartItemsContainer {
+    margin: 2vmax;
+  }
+  
+  .bookingDetailsContainerBox > div {
+    display: flex;
+    margin: 1vmax 0;
+  }
+  
+  .bookingDetailsContainerBox > div > p {
+    font: 400 1vmax "Roboto";
+    color: black;
+  }
+  .bookingDetailsContainerBox > div > span {
+    margin:  1vmax;
+    font: 100 1vmax "Roboto";
+    color: #575757;
+  }
+  
+  .bookingDetailsCartItems > p {
+    font: 400 1.8vmax "Roboto";
+  }
+  
+  .bookingDetailsCartItems {
+    padding: 2vmax 5vmax;
+    border-top: 1px solid rgba(0, 0, 0, 0.164);
+  }
+  
+  .bookingDetailsCartItemsContainer > div {
+    display: flex;
+    font: 400 1vmax "Roboto";
+    align-items: center;
+    margin: 2vmax 0;
+  }
+  
+  .bookingDetailsCartItemsContainer > div > img {
+    width: 3vmax;
+  }
+  
+  .bookingDetailsCartItemsContainer > div > a {
+    color: #575757;
+    margin: 0 2vmax;
+    width: 60%;
+    text-decoration: none;
+  }
+  
+  .bookingDetailsCartItemsContainer > div > span {
+    font: 100 1vmax "Roboto";
+    color: #5e5e5e;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .bookingDetailsContainer > p {
+      font: 400 6vw "Roboto";
+    }
+  
+    .bookingDetailsContainerBox > div {
+      margin: 6vw 0;
+    }
+  
+    .bookingDetailsContainerBox > div > p {
+      font: 400 4vw "Roboto";
+    }
+    .bookingDetailsContainerBox > div > span {
+      font: 100 4vw "Roboto";
+    }
+  
+    .bookingDetailsCartItems > p {
+      font: 400 6vw "Roboto";
+    }
+  
+    .bookingDetailsCartItemsContainer > div {
+      font: 400 4vw "Roboto";
+      margin: 4vw 0;
+    }
+  
+    .bookingDetailsCartItemsContainer > div > img {
+      width: 10vw;
+    }
+  
+    .bookingDetailsCartItemsContainer > div > a {
+      margin: 2vw;
+      width: 30%;
+    }
+  
+    .bookingDetailsCartItemsContainer > div > span {
+      font: 100 4vw "Roboto";
+    }
+}
